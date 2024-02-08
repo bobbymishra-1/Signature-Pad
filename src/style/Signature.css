@@ -1,0 +1,101 @@
+.modal-content {
+  /* max-width: 80%; */
+  margin: auto;
+  background-color: #fff;
+  /* padding: 20px;  */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Inside your SignModal.css or another stylesheet */
+
+.header {
+  width: auto;
+  padding: 10px;
+  font-size: medium;
+}
+.nav {
+  background-color: #f0f3f9;
+  display: flex;
+  border-bottom: 1px solid #bec9d9;
+  border-top: 1px solid #bec9d9;
+  padding: 10px;
+  position: relative;
+}
+.list {
+  align-items: center;
+  color: #4d525d;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  height: 35px;
+  justify-content: center;
+  margin-right: 0.8125em;
+  margin-right: var(--PSPDFKit-spacing-5);
+  min-width: 80px;
+}
+.list.active {
+  color: #4636e3;
+}
+
+.clear-sign {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  justify-content: center;
+  /* padding-bottom: 0.5em; */
+  padding: 20px;
+}
+.clear-text,
+.clear-button {
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  font-size: medium;
+}
+.clear-button {
+  cursor: pointer;
+  color: #4636e3;
+}
+.color-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.625em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 20px;
+}
+.color-box {
+  padding: 20px;
+}
+.color1,
+.color2,
+.color3 {
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 6px 4px;
+  margin: 3px;
+}
+.color1 label.selected {
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.color1:hover {
+  background-color: #ccc;
+}
+.color2:hover {
+  background-color: #ccc;
+}
+.color3:hover {
+  background-color: #ccc;
+}
+.color-text {
+  border-radius: 100%;
+  padding: 3px 11px;
+  justify-content: center;
+  align-items: center;
+}

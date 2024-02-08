@@ -1,0 +1,44 @@
+.rental-agreement-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+}
+
+.separator {
+  height: 2px;
+  background-color: #333;
+  margin: 10px 0;
+}
+
+.month-to-month {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.agreement-text {
+  text-align: justify;
+}
+
+.signature-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature-box1 {
+  flex: 1;
+  text-align: center;
+}
+
+.signature-label {
+  font-weight: bold;
+}
+
+
+
